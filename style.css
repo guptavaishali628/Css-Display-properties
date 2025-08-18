@@ -1,0 +1,27 @@
+/* bydefault div is a block display element but we make here as inline:*/
+#div1{
+   background-color: rgb(208, 175, 240);
+   display: inline;
+}
+/* bydefault button is a inline display element but we make here as block:*/
+button{
+    background-color: aqua;
+    display: block;
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;  /*take the margin apdding from top and bottom*/
+}
+
+#box2{
+    display: none; /* remove element from the document isme koi space ni bachti hai box k liye*/
+}
+
+#box3{
+    visibility: hidden; /* remove element from the document isme  space  bachti hai box k liye*/
+}
+
