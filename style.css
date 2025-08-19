@@ -25,3 +25,33 @@ button{
     visibility: hidden; /* remove element from the document isme  space  bachti hai box k liye*/
 }
 
+/*opacity*/
+
+#box5{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding:25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 255, 0.5);
+    
+}
+
+#box6{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding:25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+#box7{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    padding:25px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 255, 1);
+    
+}
